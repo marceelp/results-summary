@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- GoogleFonts Server -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- GoogleFont Hanken -->
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="card">
+    <section class="result-section">
+      <h2 class="result-section__heading">Your Result</h2>
+      <div class="circle">
+        <p class="circle-text"><span class="circle-span">76</span><br>of 100</p>
+      </div>
+      <h1 class="result-section__title">Great</h1>
+      <p class="result-section__text">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+
+    <section class="summary-section">
+      <h2 class="summary-section__heading">Summary</h2>
+      <div class="container reaction-container">
+        <div class="icon-wrapper">
+          <img class="reaction-icon" src="./images/icon-reaction.svg" alt="Reaction Icon">
+          <h3 class="container-title reaction-title">Reaction</h3>
+        </div>
+        <p class="container-text">80&nbsp;<span class="container-span">/ 100</span></p>
+      </div>
+      
+      <div class="container memory-container">
+        <div class="icon-wrapper">
+          <img class="memory-icon" src="./images/icon-memory.svg" alt="Memory Icon">
+          <h3 class="container-title memory-title">Memory</h3>
+        </div>
+        <p class="container-text">92&nbsp;<span class="container-span">/ 100</span></p>
+      </div>
+
+      <div class="container verbal-container">
+        <div class="icon-wrapper">
+          <img class="verbal-icon" src="./images/icon-verbal.svg" alt="Verbal Icon">
+          <h3 class="container-title verbal-title">Verbal</h3>
+        </div>
+        <p class="container-text">61&nbsp;<span class="container-span">/ 100</span></p>
+      </div>
+
+      <div class="container visual-container">
+        <div class="icon-wrapper">
+          <img class="visual-icon" src="./images/icon-visual.svg" alt="Visual Icon">
+          <h3 class="container-title visual-title">Visual</h3>
+        </div>
+        <p class="container-text">72&nbsp;<span class="container-span">/ 100</span></p>
+      </div>
+      <button class="button">Continue</button>
+    </section>
+  </main>
+</body>
+</html>
